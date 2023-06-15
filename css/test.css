@@ -1,0 +1,210 @@
+* {
+    margin: 0px auto;
+    padding: 0;
+    list-style: none;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+body {
+    width: 1200px;
+    height: 700px;
+}
+
+#head {
+    width: 1200px;
+    height: 100px;
+}
+#head .logo{
+    float: left;
+    cursor: pointer;
+}
+
+#head .nav {
+    width: 600px;
+    float: right;
+    padding-top: 20px;
+    position: relative;
+    z-index: 9999;
+}
+
+#head .nav > li {
+
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+    background-color: pink;
+}
+
+#head .nav > li > a:hover {
+    color: #fff;
+}
+
+#head .nav > li > ul {
+    display: none;
+}
+
+#head .nav > li > ul > li {
+    background-color: #fff;
+}
+
+#head .nav > li > ul > li > a:hover {
+    background-color: pink;
+    border-bottom: #fff;
+}
+
+#main{
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+#contents{
+    width: 1200px;
+    height: 200px;
+}
+.tab{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+.tab .name{
+    height: 50px;
+    line-height: 50px;
+}
+.tab .name li{
+    width: 100px;
+    float: left;
+    text-align: center;
+    border: 1px solid;
+    background-color: pink;
+}
+.tab .name li.on{
+    background-color: #fff;
+    border-bottom: #fff;
+}
+.table{
+    width: 600px;
+    height: 150px;
+    font-size: 0.9em;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+.table .note{
+    padding: 30px 15px;
+    position: absolute;
+}
+.table .gal{
+    padding: 40px 5px;
+    position: absolute;
+    display: none;
+}
+
+/*----------*/
+
+.banner {
+    width: 400px;
+    height: 200px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.banner p {
+    top: 30px;
+    left: 30px;
+    color: pink;
+    position: absolute;
+}
+
+/*----------*/
+
+.link {
+    width: 400px;
+    height: 200px;
+    float: left;
+    position: relative;
+}
+
+
+.link ul {
+    top: 45px;
+    left: 60px;
+    position: absolute;
+}
+
+.link ul > li {
+    color: pink;
+
+}
+
+/*---------푸터----*/
+
+#foot {
+    width: 1200px;
+    height: 100px;
+}
+
+#foot .logo {
+    height: 100px;
+    float: left;
+    cursor: pointer;
+}
+
+#foot .menu {
+    width: 800px;
+    height: 100px;
+    float: right;
+}
+
+#foot .menu > ul {
+    width: 600px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#foot .menu > ul > li {
+    width: 150px;
+    height: 50px;
+    float: left;
+}
+
+#foot .menu > .copy {
+    width: 800px;
+    height: 50px;
+    line-height: 15px;
+    text-align: center;
+}
+
+
+/*---팝---*/
+
+.pop {
+    width: 400px;
+    background-color: #fff;
+    padding: 10px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -150px;
+    z-index: 50;
+    border: 1px solid;
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.pop .close {
+    width: 50px;
+    height: 30px;
+    margin-top: 10px;
+    line-height: 30px;
+    border: 1px solid;
+}
